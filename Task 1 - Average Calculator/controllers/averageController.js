@@ -15,7 +15,7 @@ const averageCounter = {
             else if (val == "p") option = "primes"
             else if (val == "f") option = "fibo"
             else if (val == "r") option = "rand"
-            const token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJNYXBDbGFpbXMiOnsiZXhwIjoxNzQ3ODkzODI0LCJpYXQiOjE3NDc4OTM1MjQsImlzcyI6IkFmZm9yZG1lZCIsImp0aSI6IjhhYmYyNjI2LTgzYjUtNDAyZi1iMmRkLTcxMjVmY2IxZmNiZCIsInN1YiI6IjIyMDAwMzAzOTFjc2VoQGdtYWlsLmNvbSJ9LCJlbWFpbCI6IjIyMDAwMzAzOTFjc2VoQGdtYWlsLmNvbSIsIm5hbWUiOiJrb21taXJpc2V0dHkgc3Jpbml2YXMiLCJyb2xsTm8iOiIyMjAwMDMwMzkxIiwiYWNjZXNzQ29kZSI6ImJlVEpqSiIsImNsaWVudElEIjoiOGFiZjI2MjYtODNiNS00MDJmLWIyZGQtNzEyNWZjYjFmY2JkIiwiY2xpZW50U2VjcmV0IjoiUmRod3BCbUhzRmFnbmdWbSJ9.ldYK1Wau3kqfLFaiyrl5eQHhB1aY3GexTPbwnZRXKP4"
+            const token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJNYXBDbGFpbXMiOnsiZXhwIjoxNzQ3ODk2NDUzLCJpYXQiOjE3NDc4OTYxNTMsImlzcyI6IkFmZm9yZG1lZCIsImp0aSI6IjhhYmYyNjI2LTgzYjUtNDAyZi1iMmRkLTcxMjVmY2IxZmNiZCIsInN1YiI6IjIyMDAwMzAzOTFjc2VoQGdtYWlsLmNvbSJ9LCJlbWFpbCI6IjIyMDAwMzAzOTFjc2VoQGdtYWlsLmNvbSIsIm5hbWUiOiJrb21taXJpc2V0dHkgc3Jpbml2YXMiLCJyb2xsTm8iOiIyMjAwMDMwMzkxIiwiYWNjZXNzQ29kZSI6ImJlVEpqSiIsImNsaWVudElEIjoiOGFiZjI2MjYtODNiNS00MDJmLWIyZGQtNzEyNWZjYjFmY2JkIiwiY2xpZW50U2VjcmV0IjoiUmRod3BCbUhzRmFnbmdWbSJ9.DVx-7Tz01tweX4fZTMsJccTb0ooasB__0vYY_AmStyU"
             const currWindow = await axios.get(`http://20.244.56.144/evaluation-service/${option}`,
                 {
                     headers: {
